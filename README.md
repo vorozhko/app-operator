@@ -1,8 +1,16 @@
 # app-operator
-// TODO(user): Add simple overview of use/purpose
+Provide simple interface(CRD) to manage applications.
+The goals is to hide complexity of Deployment, Service, Ingress and other resources under one Appoperator object.
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+Appoperator support image and replicas fields to generate Deployment object.
+
+Todo:
+- Add support for resources
+- Add health checks: readinessprobe and livenessprobe
+- Add ports specification for container and service
+- Genereate Service object
+- Generate Ingress object
 
 ## Getting Started
 
