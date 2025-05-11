@@ -1,0 +1,10 @@
+apiVersion: tools.vorozhko.net/v1beta1
+kind: Appoperator
+metadata:
+  labels:
+    app.kubernetes.io/name: app-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: appoperator-sample
+spec:
+  image: nginx:latest
+  replicas: 3
